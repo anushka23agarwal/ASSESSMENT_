@@ -1,0 +1,128 @@
+.menu{
+    
+    display: flex;
+    flex-direction: row;
+    padding-top: 3%;
+    background-color: #FF005A;
+    padding-bottom: 3%;
+}
+
+.logo img {
+    position: fixed;
+}
+.nav-bar{
+    width: 80%;
+    margin: auto;
+
+}
+
+  .nav-bar ul {
+    list-style: none;
+    display: flex;
+    justify-content: space-evenly;
+    color: aliceblue;
+    
+
+}
+
+.middle-body{
+    background-color:#0D0D59 ;
+    font-family: 'Khand', sans-serif;
+    color: aliceblue;
+
+}
+
+.middle{
+    
+    width: 75%;
+   display: flex;
+   flex-direction: row;
+   margin: auto;
+   padding-top: 8%;
+   
+}
+
+.middle .block-one{
+/* border: 2px solid white; */
+width: 70%;
+margin-right: 40px;
+}
+
+.middle .block-two{
+    /* border: 2px solid white; */
+    border: 2px solid #52FFFF;
+    width: 30%;
+    }
+
+    .block-two p{
+        padding-left: 30px;
+        color: #52FFFF;
+    }
+
+    .middle .block-two h3{
+        padding-left: 30px;
+    }
+
+    .names{
+        display: flex;
+        padding-bottom: 30px;
+        gap: 147px;;
+       
+        }
+
+        .con{
+            display: flex;
+            justify-content: space-between;
+        }
+
+    /* .first-name{
+        padding-right: 35%;
+    } */
+
+    .first-name , .second-name{
+        display: flex;
+        flex-direction: column;
+
+    }
+
+    .email{
+        display: flex;
+        flex-direction: column;
+    }
+
+.continue{
+    width: 650px;
+    margin-top: 50px;
+    border-radius: 12px;
+    background: transparent;
+    color: #52FFFF;
+    border: 2px solid #52FFFF;
+    padding-top: 10px;
+    padding-bottom: 10px;
+
+}
+
+
+
+.first-name input{
+    border: 1px solid grey;
+    padding: 10px 23px;
+    background: transparent;
+    width: 110%;
+}
+
+
+.second-name input{
+    border: 1px solid grey;
+    padding: 10px 23px;
+    background: transparent;
+    width: 110%;
+}
+
+.email input{
+    border: 1px solid grey;
+    padding: 10px;
+    background: transparent;
+}
+
+

@@ -1,0 +1,400 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* body{
+    width: 98vw;
+    overflow: hidden;
+} */
+.container{
+    font-family: 'Khand';
+    position: relative;
+}
+
+
+.first-page{
+    background-image: url('./images/wow-image\ ⏵\ 8c0f2e_341293086ad64b6c9e1cbebc2fa2736a~mv2_d_3000_2000_s_2.jpg\ \(1\).svg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    /*width: 1920px;*/
+    /* height: 100vh; */
+
+    /* display: flex;
+  flex-direction:row; */
+    
+     /* Center vertically */
+
+}
+.header-section{
+    display: flex;
+}
+
+.content1{
+    /* position: absolute;
+    top: 0; */
+   /* right: 50%;*/
+    align-items: center;
+    width: 60%;
+    margin: auto;
+    margin-top: 20px;
+    
+}
+
+.nav-bar{
+    width: 80%;
+    margin-left: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    
+}
+
+.nav-bar ul
+{
+    margin-left: 250px;
+    list-style: none;
+    display: flex;
+    margin-top: 66px;
+    line-height: 17px;
+    text-align: center;
+}
+
+.nav-bar ul li {
+    margin-right: 80px;
+}
+
+.logo img{
+    position: fixed;
+    margin-top: 25px;
+    margin-right: 20px;
+    width: 87px;
+    display: inline;
+}
+
+
+.middle {
+    color: #52FFFF;
+    /* margin-top: 150px; */
+    font-size: 55px;
+    text-align: start;
+    margin-left: 40px;
+
+}
+
+.middle h1 {
+    width: 78%;
+
+}
+/* 
+.middle h1, .middle h3 {
+    display: inline;
+    line-height: 1.2; 
+    vertical-align: middle;
+} */
+
+
+/* .middle h1 span{
+    vertical-align: top;
+
+} */
+
+/* .middle h1 {
+    width: 40%;
+    margin-right: 20px;
+    font-size: 60px; 
+} */
+/* 
+.middle h3 {
+    display: inline;
+    vertical-align: top;
+}
+
+.middle h2{
+    font-size: 60px;
+} */
+
+
+h1 span{
+    vertical-align: 40%;
+    
+}
+ 
+
+
+
+
+
+.lower{
+    text-align: start;
+    margin-top: 40px;
+    padding-left: 38px;
+    padding-bottom: 20%;
+}
+
+
+.ticket{
+width: 20%;
+}
+.ticket a{
+    margin-top: 20px;
+    color: #52FFFF;
+    
+}
+/*second-page*/
+.second-page{
+    
+    background-color: #FF005A;
+    display: flex;
+    flex-direction: column;
+    /* height: 80vh;   */
+    justify-content: center; /* Center the content vertically */
+    align-items: center; /* Center the content horizontally */
+}
+
+
+
+.first-block{
+    text-align: center;
+    padding-top: 8%;
+    padding-bottom: 3%;
+}
+
+.second-block{
+    margin: auto;
+    color: #FFFFFF;
+    margin-top: 20px;
+    font-size: 40px;
+    width: 60%;
+    /* width: 280px; */
+    text-align: center;
+    /* line-height: 20px; */
+    font-weight: 600;
+    padding-bottom: 40px;
+    
+    
+}
+
+.third-block{
+    text-align: center;
+    margin-top: 20px;
+    padding-bottom: 5%;
+}
+
+
+
+.third-page{
+
+    background-color: #FF005A;
+    justify-content: space-evenly;
+    /* height: 63vh; */
+    display: flex;
+    flex-direction: row;
+    /* justify-content: center; */
+    align-items: center;
+    gap: 0;
+    
+}
+
+.third-page *{
+    width: 25%;
+}
+
+.third-page img{
+    object-fit: contain;
+}
+/* 
+.third-page img{
+    height: 360px;
+    width: 350px;
+    margin: 0;
+    padding: 0;
+} */
+
+.left-image, .right-image, .end-image  {
+    flex: 1; 
+    overflow: hidden;
+}
+
+.content{
+    color: #0D0D59;
+    /* width: 280px; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 26px;
+    font-weight: 200;
+}
+
+.content h2{
+    font-weight: bold;
+}
+
+
+
+
+.fourth-page{
+    background-color:#0D0D59 ;
+    /* height: 80vh; */
+    color: #52FFFF;
+    display: flex;
+    flex-direction: column;
+}
+
+a{
+    text-decoration: none;
+}
+
+
+.block-one{
+    padding-top: 10%;
+    gap: 10px;
+    text-align: center;
+}
+
+.big-box{
+    padding-top: 5%;
+    width: 60%;
+    margin: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    text-align: center;
+    gap: 80px;
+    padding-bottom: 7%;
+}
+
+.time{
+    display: flex;
+    flex-direction: row;
+    gap: 24px;
+    margin-bottom: 20px;
+    align-items: center;
+}
+
+.time p {
+    
+        font-family: 'Inter', sans-serif;
+        size: 10px;
+        text-align: start;
+    
+}
+
+.left-box > p {
+    margin-bottom: 30px;
+}
+
+.right-box > p {
+    margin-bottom: 30px;
+}
+
+
+
+
+
+
+
+
+.fifth-page{
+    background-color:#FFFFFF ;
+    color: #0D0D59;
+    /* height: 70vh; */
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 10%;
+
+}
+
+.block-four{
+    margin-top: 66px;
+    gap: 10px;
+    text-align: center;
+}
+
+.all-imgs{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.sixth-page{
+    background-color: #FF005A;
+    /* height: 70vh; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    color: #FFFFFF;
+
+}
+
+.last{
+    padding-top: 5%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    gap: 20px;
+}
+
+.second-last{
+    margin-top: 20px;
+    padding-bottom: 7%;
+}
+
+
+footer{
+    background-color: #F2F2F2;
+    height: 15vh;
+    color: #999999;
+}
+
+.latest{
+    
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: row;
+}
+
+.icons {
+    margin-top: 15px;
+    display: flex;
+    margin-right: 10px; /* Add margin to the right of the icons for spacing */
+}
+
+.para{
+    margin-top: 15px;
+    margin-right: 10px;
+}
+
+
+.second-last button{
+    
+    background-color: transparent;
+    color: #ffffff;
+    border-radius: 100px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border: 3px solid #ffffff;
+    cursor: pointer;
+}
+
+
+.lower button{
+    background-color: transparent;
+    color: #52FFFF;
+    border-radius: 40px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border: 3px solid #52FFFF;
+    cursor: pointer;
+}
+

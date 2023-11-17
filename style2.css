@@ -1,0 +1,260 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+.container{
+    font-family: 'Khand', sans-serif;
+}
+
+.page-one{
+    height: 90vh;
+    background-color: #FF005A;
+
+}
+
+.part{
+    display: flex;
+    justify-content: space-between;
+
+}
+
+
+
+.logo {
+    display: flex;
+    align-items: center;
+}
+
+.logo img {
+    margin-top: 30px;
+    margin-right: 10px;
+}
+
+
+.navbar {
+
+    padding-top: 70px;
+    margin-left: 50px;
+    display: flex;
+    justify-content: space-between;
+    color:white;
+    
+    width: 70%;
+    align-items: center;
+    margin-right: 10%;
+
+
+}
+
+.nav-item {
+    line-height: 50px;
+    margin: 0 10px;
+    display: flex;
+    justify-content: space-evenly;
+
+
+}
+
+.middle-one{
+    color: white;
+    margin-top: 100px;
+    margin-left: 250px;
+}
+
+.get-ticket{
+    margin-top: 40px;
+    background-color: transparent;
+    color: #ffffff;
+    border-radius: 100px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border: 3px solid #ffffff;
+    cursor: pointer;
+    width: 15%;
+}
+
+
+.page-two{
+    
+    background-color: #0D0D59;
+    height: 70vh;
+    color: #52FFFF;
+    padding-left: 180px;
+    padding-top: 60px;
+    
+}
+
+.ticket-options{
+
+    background-color: #0D0D59;
+    color: #52FFFF;
+    display: flex;
+    flex-direction: column;
+    
+        
+    
+}
+.ticket-info{
+    text-align: start;
+}
+
+.ticket-option{
+    background-color: #0D0D59;
+    display: flex;
+    color: #52FFFF;
+    justify-content: space-evenly;
+    text-align: center;
+    padding-top: 10px;
+}
+
+
+.ticket-info select{
+    /* margin-top: 15px;
+    color: white;
+    background: transparent;
+    border: 1px solid white;
+    width: 100px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    max-height: 100px;
+    overflow-y: auto;
+    appearance: none; */
+
+    width: 100px; /* Increase the width as needed */
+    padding: 5px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+    appearance: none;
+    overflow: hidden;
+    position: relative;
+}
+
+.ticket-info {
+    padding: 30px;
+}
+
+#earlyBirdSelect option{
+    
+    padding: 100px;
+}
+
+
+
+select option {
+    padding: 30px;
+    background-color: #0D0D59;
+}
+
+.ticket-info select option {
+    /* padding: 10px;  */
+    padding: 10px; /* Increase the padding as desired */
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden;
+}
+
+
+
+
+.ticket-info select:focus {
+    outline: none;
+    border-color: #007bff; /* Change the border color when focused */
+}
+
+/* Style the dropdown arrow */
+.ticket-info select::-ms-expand {
+    display: none;
+}
+.ticket-info select::after {
+    content: "\25BC"; /* Unicode character for a downward arrow */
+    position: absolute;
+    top: 50%;
+    right: 10px; /* Adjust the right padding for the arrow */
+    transform: translateY(-50%);
+}
+
+
+
+
+
+
+
+select option span{
+    padding: 30px;
+}
+
+footer{
+
+    background-color: #F2F2F2;
+    height: 10vh;
+    color: #999999;
+}
+
+
+.latest{
+    
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: row;
+}
+
+.icons {
+    margin-top: 15px;
+    display: flex;
+    margin-right: 10px; /* Add margin to the right of the icons for spacing */
+}
+
+.para{
+    margin-top: 15px;
+    margin-right: 10px;
+}
+
+.zero{
+    
+    width: 450px;
+    display: flex;
+    justify-content: space-between;
+    gap: 90px;
+    
+}
+
+.total{
+    
+    margin: auto;
+    /* margin-top: 40px;
+    margin-left: 670px; */
+    width: 450px;
+    text-align: center;
+    color: #52FFFF;
+    font-size: 25px;
+    margin-right: 50px;
+    background-color: #0D0D59;
+
+    
+}
+
+
+.checkout{
+background-color: transparent;
+    color: white;
+    width: 200px;
+    border-radius: 100px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border: 3px solid #ffffff;
+    cursor: pointer;
+}
+
+.checkout a{
+    color: inherit;
+}
